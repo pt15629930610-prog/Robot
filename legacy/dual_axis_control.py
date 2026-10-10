@@ -37,7 +37,7 @@ ROLL_MOTOR_SIGN = +1                 # 右推为正；方向不对才改 -1
 
 # 1.2 摇杆速度：默认只开放2°/s作为无位置限位时的低速调试速度
 #     确认运动安全后可逐步上调，不能只依靠电流碰撞检测保护机械。
-RUN_MAX_SPEED_OUTPUT_DPS = 22.0       # 输出轴最大速度，非电机轴速度
+RUN_MAX_SPEED_OUTPUT_DPS = 20.0       # 输出轴最大速度，非电机轴速度
 MIN_MOVE_SPEED_OUTPUT_DPS = 0.35     # 摇杆刚离开死区时最低速度
 JOY_CENTER = 0x0800
 JOY_DEADZONE = 0x0030
